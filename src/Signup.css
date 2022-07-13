@@ -1,0 +1,15 @@
+
+.container { max-width: 900px; margin: 10rem auto;}
+.text-center { text-align: center;}
+.headline__signup { font-size: 65px ; font-weight: bold; letter-spacing: 2px;  }
+.subheadline__singup { font-size: 18px; font-weight: lighter; margin-top: 0.4rem; }
+.f-ct { display: flex; flex-direction: row; align-items: center; justify-content: space-between;}
+.register-input { margin: 1rem 0; outline: none; border: none; width: 100%; background: #100f0f; height: 3rem; font-size: 22px; color: #fff; border-radius: 8px; padding: 0 0.4rem; }
+.mt-4 { margin-top: 4rem; }
+.register-input::placeholder { text-align: center; }
+
+.register-label { font-size: 18px; font-weight: bold; letter-spacing: 2px;}
+.flex-cols { display: flex; padding: 1rem;}
+.flex-col-c { flex: 1; text-align: center; padding: 1rem;}
+.flex-col-r { flex: 1; text-align: right; padding: 1rem;}
+.flex-col-l { flex: 1; text-align: left; padding: 1rem;}

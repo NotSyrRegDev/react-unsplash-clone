@@ -1,0 +1,60 @@
+.contaienr { max-width: 1100px; margin: 0 auto; overflow: auto; padding: 0 40px;}
+.darkToggle { background: #111 !important; color: #fff !important;}
+.textWhite {  color: #fff !important;}
+.icons-white {background: #fff !important; color: #111 !important;}
+ul { list-style: none !important;}
+.d-flex { display: flex !important;}
+a { text-decoration: none;}
+.contaienr { max-width: 1350px !important; margin: 0 auto;}
+.navbar__flex { height: 60px; display: flex; justify-content: space-between; background-color: #fff; margin: 1rem 0;  }
+.logo-div  { display: block; flex: 0.2; }
+
+.logo-website {width: 151px !important;}
+
+.search-div { flex: 0.6; width: 100%; padding: 0.8rem 0.5rem; }
+.search-input { outline: none; border: none; background: #e9e9e9; color: #111; padding: 0.8rem 0.5rem ; border-radius: 5000px; width: 100%;  flex: 0.6; }
+.search-input:hover , .search-input:focus { background: #f9f9f9; border: 1px solid #111; }
+
+
+ul.flex-items { display: flex; align-items: baseline; margin: 25px 0 0 0; flex: 0.2;}
+ul.flex-items li a { text-decoration: none; color: #333; margin: 0 0.6rem; display: block; font-size: 16px;}
+.join-div { margin: 16px 1.5rem;}
+.btn__login-btn { background: none; border: none; outline: none; color: #333; padding: 0.5rem; margin-right: 15px !important;} 
+.btn__join-btn { background: #3cb46e; border: none; outline: none; color: #333; padding: 0.7rem; border-radius: 5px; font-weight: bold; color: #fff;} 
+.carousel { cursor: pointer !important; }
+.join-div i { font-size: 23px !important; margin-left: 15px;}
+
+@media screen and (max-width: 1200px) {
+    
+    .search-input {  width: 35%;}
+}
+
+@media screen and (max-width: 1000px) {
+   
+    .search-input {  width: 30%;}
+    .logo-div { margin: 8px 4px;}
+    .logo-para { font-size: 11px;}
+}
+
+@media screen and (max-width: 900px) {
+    /* .navbar__flex { background: red !important; } */
+    .search-input {  width: 25%;}
+    ul.flex-items li a {  margin: 0 1rem;  font-size: 16px;}
+   
+}
+
+@media screen and (max-width: 750px) {
+    
+    .search-input {  width: 25%;}
+    ul.flex-items li a {  margin: 4px 0.6rem;  font-size: 14px;}
+   
+}
+
+@media screen and (max-width: 680px) {
+   
+    ul.flex-items { display: none; }
+    .search-input {  width: 120px;}
+    ul.flex-items li a {  margin: 0 0.6rem;  font-size: 14px;}
+    .logo-website {width: 80px !important;}
+   
+}

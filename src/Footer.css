@@ -1,0 +1,39 @@
+.footer { background: #f9f9f9;}
+.mt-2 { margin-top: 2rem;}
+.mt-4 { margin-top: 5.2rem;}
+.logo__fotter img { width: 50%; margin-top: 2rem ;}
+.browsing-list-1 li a {text-decoration: none; color: #111; font-size: 14px; }
+.browsing-list-2 li a {text-decoration: none; color: #111; font-size: 14px; }
+.social-links i { margin-right: 2.6rem; background: #111; color: #fff; padding: 0.6rem; }
+.footer_logo-website { width: 133px !important;}
+.browsing-list-1 h1 { font-family: 'Saira Condensed' , sans-serif; }
+.follow-us h1 { font-family: 'Saira Condensed' , sans-serif; }
+
+@media screen and (max-width: 1200px) {
+    .social-links i { margin-right: 1.6rem;  }
+
+}
+
+@media screen and (max-width: 1000px) {
+   
+    .browsing-list-1 h1 { font-size: 18px !important; font-weight: bold;}
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .social-links i { margin-right: 1rem;  }
+   
+}
+
+@media screen and (max-width: 750px) {
+    
+    .footer .d-grid .g-col-4 { grid-template-columns: repeat(2 , 1fr) !important; }
+    .mt-4 { margin-top: 2rem;}
+}
+
+@media screen and (max-width: 680px) {
+   
+  
+   
+}

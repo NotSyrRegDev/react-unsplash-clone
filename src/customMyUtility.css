@@ -1,0 +1,32 @@
+.container { max-width: 1100px; margin: 0 auto; overflow: auto; padding: 0 40px;}
+.g-col-3 { display: grid !important; grid-template-columns: repeat(3 , 1fr) !important;}
+.g-col-4 { display: grid !important; grid-template-columns: repeat(4 , 1fr) !important;}
+.mx-3 { margin: 0 1.5rem;}
+.d-none { display: none !important;}
+.d-hidden { visibility: hidden !important; opacity: 0 !important;}
+.d-show { visibility: visible !important; opacity: 1 !important;}
+.pos-r { position: relative;}
+.align-center { align-items: center !important;}
+.flex-cols { display: flex; padding: 1rem;}
+.flex-col-c { flex: 1; text-align: center; padding: 1rem;}
+.flex-col-r { flex: 1; text-align: right; padding: 1rem;}
+.flex-col-l { flex: 1; text-align: left; padding: 1rem;}
+.justify-sv { justify-content: space-evenly;}
+.justify-fe{ justify-content: flex-end;}
+.justify-ct { justify-content: center;}
+.align-center { align-items: center !important;}
+.align-baseline { align-items: baseline !important;}
+.align-s-center { align-self: center !important;}
+.f-sv { justify-content: space-evenly; display: flex;}
+.f-sp { justify-content: space-between; display: flex;}
+.f-fs { justify-content:flex-start; display: flex;}
+.f-fe { justify-content: flex-end; display: flex;}
+.f-sa { justify-content: space-around; display: flex;}
+.f-ct { justify-content: center; display: flex; }
+/*----Display FLexed--*/
+.flex-col { display: flex; flex-direction: column; text-align: center; align-items: center; justify-content: center; height: 100%; }
+    
+    .flex-row { display: flex; text-align: center; align-items: center; justify-content: center; height: 100%;}
+    .flex-sp { display: flex; text-align: center; align-items: center; justify-content: space-between; height: 100%;}
+    .flex-fs { display: flex; text-align: center; align-items: center; justify-content: flex-start; height: 100%;}
+    .flex-fe { display: flex; text-align: center; align-items: center; justify-content: flex-end; height: 100%;}

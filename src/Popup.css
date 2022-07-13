@@ -1,0 +1,3 @@
+.welcoming--image { width: 100%; height: 10rem !important;  text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.previw-div { width: 100%; height: 100vh; }
+.d-non { display: none !important;}
